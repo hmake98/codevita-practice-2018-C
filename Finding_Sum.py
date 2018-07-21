@@ -1,11 +1,11 @@
 # imports
 import itertools
 
-# taking input for numbers
-numbers = int(input("Enter numbers: "))
-
+numbers, divider = map(int, input().split(','))
+""" # taking input for numbers
+numbers = int(input(""))
 # taking input for divider
-divider = int(input("Enter divider: "))
+divider = int(input("")) """
 
 # numbers list and taking numbers input
 numbers_list = []
